@@ -89,7 +89,7 @@
             </nav>
 
             <div class="text-center">
-                <h1 class="page-title">REKAP PEMASUKAN</h1> 
+                <h1 class="page-title">REKAP PENGELUARAN</h1> 
                 <p class="text-white-50 mb-4">Transparansi Dana Masjid Jami' Al Istiqomah</p>
                 
                 <div class="d-inline-block bg-white shadow-sm" style="border-radius: 50px; padding: 10px 25px; border: 2px solid var(--gold-accent);">
