@@ -18,8 +18,8 @@ class KritikController extends Controller
         KritikSaran::create([
             'nama_pengirim' => $request->nama_pengirim,
             'isi_pesan'     => $request->isi_pesan,
-            'tanggal_kirim' => now(), // Sesuaikan dengan nama field di model lu
-            'status'        => 'Baru' // Default status
+            'tanggal_kirim' => now(), 
+            'status'        => 'belum dibaca' 
         ]);
 
         return response()->json(['sukses' => true, 'pesan' => 'Terima kasih atas masukannya!'], 200);
